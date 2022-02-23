@@ -136,13 +136,12 @@
 
 @media(max-width: 991px){
     .navbar .max-width{
-        padding: 0 50px;
-        
+        padding: 0 55px;
     }
 }
 
 @media(max-width: 947px){
-    max-width{
+    .max-width{
         padding: 0 50px;
     }
     .menu-btn{
@@ -155,8 +154,8 @@
         height: 100vh;
         left: 0;
         top: 0;
-        background: #111;
         padding-top: 80px;
+        background: #111;
         text-align: center;
     }
     .navbar .menu li{
@@ -177,6 +176,27 @@
     .home .home-content a{
         font-size: 23px;
         padding: 10px 30px;
+    }
+}
+
+@media(max-width: 690px){
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
     }
 }
 
@@ -234,10 +254,31 @@ section{
     width: 55%;
 }
 
-.about .about-content .right{
+.about .about-content .right .text{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: yellow;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+
+.about .about-content .right a{
+    display: inline-block;
+    background: yellow;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
 }
 
 .about .about-content .left img{
@@ -245,25 +286,4 @@ section{
     height: 400px;
     object-fit: cover;
     border-radius: 6px;
-}
-
-@media(max-width: 690px){
-    .home .home-content .text-2{
-        font-size: 60px;
-    }
-    .home .home-content .text-3{
-        font-size: 32px;
-    }
-    .home .home-content a{
-        font-size: 20px;
-    }
-}
-
-@media(max-width: 500px){
-    .home .home-content .text-2{
-        font-size: 50px;
-    }
-    .home .home-content .text-3{
-        font-size: 27px;
-    }
 }
