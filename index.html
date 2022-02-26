@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio front-end</title>
     <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
 
 <body>
@@ -73,7 +82,7 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <ion-icon name="brush-outline"></ion-icon>
+                        <ion-icon name="brush"></ion-icon>
                         <div class="text">Web Design</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsam ut
                             laudantium eum earum fuga?</p>
@@ -81,7 +90,8 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <ion-icon name="bar-chart-outline"></ion-icon>
+                        <!-- -outline -->
+                        <ion-icon name="bar-chart"></ion-icon>
                         <div class="text">Análise de Gráficos</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsam ut
                             laudantium eum earum fuga?</p>
@@ -89,7 +99,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <ion-icon name="code-outline"></ion-icon>
+                        <ion-icon name="code"></ion-icon>
                         <div class="text">Desenvolvimento</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsam ut
                             laudantium eum earum fuga?</p>
@@ -99,10 +109,106 @@
         </div>
     </section>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <!--Seção Habilidades-->
+    <!-- atalho usado: section.skills#skills-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Minhas Habilidades</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Experiências e Habilidades</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis animi hic molestiae voluptates
+                        repellendus nesciunt ut optio impedit natus? Doloremque quos animi harum beatae sint optio nemo
+                        porro a. Amet aliquid sapiente accusamus modi quidem voluptatem eius praesentium, culpa
+                        distinctio inventore mollitia reprehenderit debitis consequuntur laudantium nisi omnis dicta
+                        fugit impedit cumque officia nihil asperiores unde est maxime. Consequatur, officiis?</p>
+                    <a href="#">Ler mais</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Javascript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line javascript"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line java"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--seção equipe-->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Minha equipe</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="/img/cara0.jpg" alt="">
+                        <div class="text">Nome do cara 1</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="/img/cara1.jpg" alt="">
+                        <div class="text">Nome do cara 2</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="/img/cara2.jpg" alt="">
+                        <div class="text">Nome do cara 3</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="/img/cara3.jpg" alt="">
+                        <div class="text">Nome do cara 4</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="/img/cara4.jpg" alt="">
+                        <div class="text">Nome do cara 5</div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 
